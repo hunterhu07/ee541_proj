@@ -184,7 +184,7 @@ def encoding_test(X1=520, X2=704):
 
 def submission_csv(lines, path):
     with open(path, 'w') as f:
-        f.write('id,annotation\n')
+        f.write('id,predicted\n')
         for line in lines:
             f.write(line+"\n")
     return
